@@ -4,7 +4,7 @@ Imports System.IO
 Imports Microsoft.VisualBasic.ApplicationServices
 
 Public Class Form1
-    'Variablen
+
     Dim BookID As String = Nothing
     Dim selDB As New dbHandling
     Dim tempPath As String = My.Computer.FileSystem.SpecialDirectories.CurrentUserApplicationData & "\"
