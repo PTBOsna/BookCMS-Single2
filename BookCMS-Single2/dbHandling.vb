@@ -185,25 +185,7 @@ Public Class dbHandling
 
         Return returnValue
     End Function
-    ''' <summary>
-    ''' DB laden
-    ''' vollständiger Dateiname als Input erwartet
-    ''' </summary>
-    ''' <param name="sName"></param>
-    'Public Sub LoadDB(ByVal sName As String)
-    '    ' MsgBox(sName)
-    '    If String.IsNullOrEmpty(sName) Then Exit Sub
-    '    If File.Exists(sName) Then
-    '        con.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source='" & sName & "'"
-    '        'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=H:\Access\freeDMS_DB_test.mdb
-    '        Exit Sub
 
-    '    ElseIf Not File.Exists(sDataPath & Path.GetFileName(sName)) Then
-    '        con.ConnectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=e='" & sName & "'"
-    '        Exit Sub
-    '    End If
-    '    MsgBox("Datei " & sName & " nicht gefunden!",, "Bitte prüfen!")
-    'End Sub
 
 End Class
 Namespace My

@@ -38,7 +38,7 @@
         BtDel.Text = "ID " & ergeb(2) & " löschen"
         'MsgBox(ergeb(2))
     End Sub
-    Private Function SucheZeileundMarkiere(ByVal sSuchWert As String) As Integer
+    Private Function SucheZeileundMarkiere(ByVal sSuchWert As String) As Boolean
         Try
             For i As Integer = 0 To AutorBuchLinkDataGridView.Rows.Count - 1
                 If AutorBuchLinkDataGridView.Rows(i).Cells(0).Value.ToString = sSuchWert Then
@@ -48,12 +48,14 @@
                     AutorBuchLinkDataGridView.FirstDisplayedScrollingRowIndex = i
                     'und kennzeichet sie als CorrentRow
                     AutorBuchLinkDataGridView.CurrentCell = AutorBuchLinkDataGridView.Rows(i).Cells(0)
+                    Return True
                     Exit Function
                 End If
             Next
         Catch ex As Exception
-
+            Return False
         End Try
+        Return True
     End Function
 
     Private Sub BtDel_Click(sender As Object, e As EventArgs) Handles BtDel.Click
