@@ -1,0 +1,657 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BookCMS-Single2
+</name>
+</assembly>
+<members>
+<member name="T:BookCMS_Single2.My.Resources.Resources">
+<summary>
+  Eine stark typisierte Ressourcenklasse zum Suchen von lokalisierten Zeichenfolgen usw.
+</summary>
+</member>
+<member name="P:BookCMS_Single2.My.Resources.Resources.ResourceManager">
+<summary>
+  Gibt die zwischengespeicherte ResourceManager-Instanz zurück, die von dieser Klasse verwendet wird.
+</summary>
+</member>
+<member name="P:BookCMS_Single2.My.Resources.Resources.Culture">
+<summary>
+  Überschreibt die CurrentUICulture-Eigenschaft des aktuellen Threads für alle
+  Ressourcenzuordnungen, die diese stark typisierte Ressourcenklasse verwenden.
+</summary>
+</member>
+<member name="P:BookCMS_Single2.My.Resources.Resources.buchAdd">
+<summary>
+  Sucht eine lokalisierte Ressource vom Typ System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:BookCMS_Single2.dbHandling.LoadDB(System.String)">
+ <summary>
+ DB laden
+ vollständiger Dateiname als Input erwartet
+ </summary>
+ <param name="sName"></param>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.recordDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.leaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.controlfieldDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.datafieldDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.subfieldDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.collectionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.recordRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.leaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.controlfieldRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.datafieldRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.subfieldRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.collectionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.recordRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.leaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.controlfieldRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.datafieldRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.subfieldRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2.NewDataSet.collectionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2.recordType">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.recordType.leader">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.recordType.controlfield">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.recordType.datafield">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.recordType.type">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.recordType.typeSpecified">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.recordType.id">
+<remarks/>
+</member>
+<member name="T:BookCMS_Single2.leaderFieldType">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.leaderFieldType.id">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.leaderFieldType.Value">
+<remarks/>
+</member>
+<member name="T:BookCMS_Single2.subfieldatafieldType">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.subfieldatafieldType.id">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.subfieldatafieldType.code">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.subfieldatafieldType.Value">
+<remarks/>
+</member>
+<member name="T:BookCMS_Single2.dataFieldType">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.dataFieldType.subfield">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.dataFieldType.id">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.dataFieldType.tag">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.dataFieldType.ind1">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.dataFieldType.ind2">
+<remarks/>
+</member>
+<member name="T:BookCMS_Single2.controlFieldType">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.controlFieldType.id">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.controlFieldType.tag">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.controlFieldType.Value">
+<remarks/>
+</member>
+<member name="T:BookCMS_Single2.recordTypeType">
+<remarks/>
+</member>
+<member name="F:BookCMS_Single2.recordTypeType.Bibliographic">
+<remarks/>
+</member>
+<member name="F:BookCMS_Single2.recordTypeType.Authority">
+<remarks/>
+</member>
+<member name="F:BookCMS_Single2.recordTypeType.Holdings">
+<remarks/>
+</member>
+<member name="F:BookCMS_Single2.recordTypeType.Classification">
+<remarks/>
+</member>
+<member name="F:BookCMS_Single2.recordTypeType.Community">
+<remarks/>
+</member>
+<member name="T:BookCMS_Single2.collectionType">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.collectionType.record">
+<remarks/>
+</member>
+<member name="P:BookCMS_Single2.collectionType.id">
+<remarks/>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.AutorRolleDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BindungDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BuchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BuchTypDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.DDCDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.DruckereiDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.EditionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.GenreLinkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.LandDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.LanguageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.PersonDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.SachgruppeDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.SerienDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.StandortDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.VerlagDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.VerlagsOrtDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.PersonBuchDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.AutorBuchLinkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BibliothekDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.AutorRolleRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BindungRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BuchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BuchTypRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.DDCRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.DruckereiRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.EditionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.GenreLinkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.LandRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.LanguageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.PersonRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.SachgruppeRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.SerienRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.StandortRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.VerlagRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.VerlagsOrtRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.PersonBuchRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.AutorBuchLinkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BibliothekRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.AutorRolleRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BindungRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BuchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BuchTypRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.DDCRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.DruckereiRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.EditionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.GenreLinkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.LandRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.LanguageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.PersonRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.SachgruppeRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.SerienRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.StandortRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.VerlagRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.VerlagsOrtRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.PersonBuchRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.AutorBuchLinkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSet.BibliothekRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.AutorRolleTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.BindungTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.BuchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.BuchTypTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.DDCTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.DruckereiTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.EditionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.GenreLinkTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.LandTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.LanguageTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.PersonTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.SachgruppeTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.SerienTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.StandortTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.VerlagTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.VerlagsOrtTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.PersonBuchTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.AutorBuchLinkTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.BibliothekTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(BookCMS_Single2._BookCMS_singleDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(BookCMS_Single2._BookCMS_singleDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(BookCMS_Single2._BookCMS_singleDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.TableAdapterManager.UpdateAll(BookCMS_Single2._BookCMS_singleDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:BookCMS_Single2._BookCMS_singleDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
