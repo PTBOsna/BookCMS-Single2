@@ -137,7 +137,7 @@ Partial Class PersonenListe
         SortByLabel.Name = "SortByLabel"
         SortByLabel.Size = New System.Drawing.Size(73, 13)
         SortByLabel.TabIndex = 6
-        SortByLabel.Text = "Angezeigt als:"
+        SortByLabel.Text = "Sortiert nach:"
         '
         'GeborenLabel
         '
