@@ -219,6 +219,7 @@ Partial Class Form1
         Me.SachgruppenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.StandortteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.VerlageToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VerlagsorteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.HilfeToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.InhaltToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.IndexToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -259,7 +260,7 @@ Partial Class Form1
         Me.GenreLinkTableAdapter = New BookCMS_Single2._BookCMS_singleDataSetTableAdapters.GenreLinkTableAdapter()
         Me.BGWRefresh = New System.ComponentModel.BackgroundWorker()
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
-        Me.VerlagsorteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RolleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Label1 = New System.Windows.Forms.Label()
         Label2 = New System.Windows.Forms.Label()
         KategorieLabel = New System.Windows.Forms.Label()
@@ -440,7 +441,7 @@ Partial Class Form1
         Me.TableLayoutPanel1.ColumnCount = 3
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 20.37325!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 79.62675!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 400.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 401.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.TabControl1, 0, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel1, 2, 1)
         Me.TableLayoutPanel1.Controls.Add(Me.Panel2, 1, 0)
@@ -465,7 +466,7 @@ Partial Class Form1
         Me.TabControl1.Location = New System.Drawing.Point(3, 65)
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(225, 646)
+        Me.TabControl1.Size = New System.Drawing.Size(224, 646)
         Me.TabControl1.TabIndex = 0
         '
         'TabPage1
@@ -474,7 +475,7 @@ Partial Class Form1
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
         Me.TabPage1.Padding = New System.Windows.Forms.Padding(3)
-        Me.TabPage1.Size = New System.Drawing.Size(217, 620)
+        Me.TabPage1.Size = New System.Drawing.Size(216, 620)
         Me.TabPage1.TabIndex = 0
         Me.TabPage1.Text = "TabPage1"
         Me.TabPage1.UseVisualStyleBackColor = True
@@ -570,7 +571,7 @@ Partial Class Form1
         TreeNode40.Text = "Alle Titel"
         Me.TVTitel.Nodes.AddRange(New System.Windows.Forms.TreeNode() {TreeNode40})
         Me.TVTitel.SelectedImageIndex = 0
-        Me.TVTitel.Size = New System.Drawing.Size(211, 614)
+        Me.TVTitel.Size = New System.Drawing.Size(210, 614)
         Me.TVTitel.TabIndex = 2
         '
         'ImageList1
@@ -719,9 +720,9 @@ Partial Class Form1
         Me.Panel1.Controls.Add(Me.UntertitelTextBox)
         Me.Panel1.Controls.Add(Me.TitelTextBox)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel1.Location = New System.Drawing.Point(1136, 65)
+        Me.Panel1.Location = New System.Drawing.Point(1135, 65)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(395, 646)
+        Me.Panel1.Size = New System.Drawing.Size(396, 646)
         Me.Panel1.TabIndex = 2
         '
         'StandortTextBox
@@ -891,7 +892,7 @@ Partial Class Form1
         Me.Panel2.Controls.Add(Me.TextBox2)
         Me.Panel2.Controls.Add(Me.Label6)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel2.Location = New System.Drawing.Point(234, 3)
+        Me.Panel2.Location = New System.Drawing.Point(233, 3)
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(896, 56)
         Me.Panel2.TabIndex = 3
@@ -989,7 +990,7 @@ Partial Class Form1
         Me.Panel3.Dock = System.Windows.Forms.DockStyle.Fill
         Me.Panel3.Location = New System.Drawing.Point(3, 3)
         Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(225, 56)
+        Me.Panel3.Size = New System.Drawing.Size(224, 56)
         Me.Panel3.TabIndex = 4
         '
         'lblFound
@@ -1022,7 +1023,7 @@ Partial Class Form1
         Me.Panel4.Controls.Add(Me.PersonBuchDataGridView)
         Me.Panel4.Controls.Add(Me.BuchDataGridView)
         Me.Panel4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel4.Location = New System.Drawing.Point(234, 65)
+        Me.Panel4.Location = New System.Drawing.Point(233, 65)
         Me.Panel4.Name = "Panel4"
         Me.Panel4.Size = New System.Drawing.Size(896, 646)
         Me.Panel4.TabIndex = 5
@@ -1166,9 +1167,9 @@ Partial Class Form1
         'Panel5
         '
         Me.Panel5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel5.Location = New System.Drawing.Point(1136, 3)
+        Me.Panel5.Location = New System.Drawing.Point(1135, 3)
         Me.Panel5.Name = "Panel5"
-        Me.Panel5.Size = New System.Drawing.Size(395, 56)
+        Me.Panel5.Size = New System.Drawing.Size(396, 56)
         Me.Panel5.TabIndex = 6
         '
         'MenuStrip1
@@ -1351,7 +1352,7 @@ Partial Class Form1
         '
         'ListenToolStripMenuItem
         '
-        Me.ListenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BibliothekenToolStripMenuItem, Me.BuchTypToolStripMenuItem})
+        Me.ListenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BibliothekenToolStripMenuItem, Me.BuchTypToolStripMenuItem, Me.RolleToolStripMenuItem})
         Me.ListenToolStripMenuItem.Name = "ListenToolStripMenuItem"
         Me.ListenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ListenToolStripMenuItem.Text = "Listen"
@@ -1403,38 +1404,44 @@ Partial Class Form1
         'BindungToolStripMenuItem
         '
         Me.BindungToolStripMenuItem.Name = "BindungToolStripMenuItem"
-        Me.BindungToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BindungToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.BindungToolStripMenuItem.Text = "Bindung"
         '
         'BuchTypenToolStripMenuItem
         '
         Me.BuchTypenToolStripMenuItem.Name = "BuchTypenToolStripMenuItem"
-        Me.BuchTypenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BuchTypenToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.BuchTypenToolStripMenuItem.Text = "Buch-Typen"
         '
         'BücherToolStripMenuItem
         '
         Me.BücherToolStripMenuItem.Name = "BücherToolStripMenuItem"
-        Me.BücherToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.BücherToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.BücherToolStripMenuItem.Text = "Personen"
         '
         'SachgruppenToolStripMenuItem
         '
         Me.SachgruppenToolStripMenuItem.Name = "SachgruppenToolStripMenuItem"
-        Me.SachgruppenToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.SachgruppenToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.SachgruppenToolStripMenuItem.Text = "Sachgruppen"
         '
         'StandortteToolStripMenuItem
         '
         Me.StandortteToolStripMenuItem.Name = "StandortteToolStripMenuItem"
-        Me.StandortteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.StandortteToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.StandortteToolStripMenuItem.Text = "Standorte"
         '
         'VerlageToolStripMenuItem
         '
         Me.VerlageToolStripMenuItem.Name = "VerlageToolStripMenuItem"
-        Me.VerlageToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.VerlageToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
         Me.VerlageToolStripMenuItem.Text = "Verlage"
+        '
+        'VerlagsorteToolStripMenuItem
+        '
+        Me.VerlagsorteToolStripMenuItem.Name = "VerlagsorteToolStripMenuItem"
+        Me.VerlagsorteToolStripMenuItem.Size = New System.Drawing.Size(144, 22)
+        Me.VerlagsorteToolStripMenuItem.Text = "Verlagsorte"
         '
         'HilfeToolStripMenuItem
         '
@@ -1716,11 +1723,11 @@ Partial Class Form1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
-        'VerlagsorteToolStripMenuItem
+        'RolleToolStripMenuItem
         '
-        Me.VerlagsorteToolStripMenuItem.Name = "VerlagsorteToolStripMenuItem"
-        Me.VerlagsorteToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
-        Me.VerlagsorteToolStripMenuItem.Text = "Verlagsorte"
+        Me.RolleToolStripMenuItem.Name = "RolleToolStripMenuItem"
+        Me.RolleToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RolleToolStripMenuItem.Text = "Rolle"
         '
         'Form1
         '
@@ -1918,4 +1925,5 @@ Partial Class Form1
     Friend WithEvents OpenFileDialog1 As OpenFileDialog
     Friend WithEvents SonderzeichenInTitelEntfernenToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents VerlagsorteToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RolleToolStripMenuItem As ToolStripMenuItem
 End Class

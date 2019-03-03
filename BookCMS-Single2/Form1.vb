@@ -737,5 +737,10 @@ Public Class Form1
         Dim f As New VerlagsortListe
         f.ShowDialog()
     End Sub
+
+    Private Sub RolleToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles RolleToolStripMenuItem.Click
+        Dim f As New AutorRolleListe
+        f.ShowDialog()
+    End Sub
 End Class
 

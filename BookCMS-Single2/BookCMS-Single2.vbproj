@@ -89,6 +89,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AutorRolleListe.Designer.vb">
+      <DependentUpon>AutorRolleListe.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AutorRolleListe.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="BuchDetail.Designer.vb">
       <DependentUpon>BuchDetail.vb</DependentUpon>
     </Compile>
@@ -252,6 +258,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="AutorRolleListe.resx">
+      <DependentUpon>AutorRolleListe.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BuchDetail.resx">
       <DependentUpon>BuchDetail.vb</DependentUpon>
     </EmbeddedResource>
